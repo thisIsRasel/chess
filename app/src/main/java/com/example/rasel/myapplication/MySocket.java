@@ -18,7 +18,7 @@ public class MySocket {
         try {
 
             //socket = IO.socket("http://192.168.56.1:3000");
-            socket = IO.socket("http://chess.cloudabcd.com:49500");
+            socket = IO.socket("http://domain.com:49500");
             //ifconfig vboxnet0 to get ipaddress if you run from genymotion
 
         } catch(URISyntaxException ex) {
