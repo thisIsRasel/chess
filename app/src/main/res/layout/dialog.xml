@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/dialogLayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/p2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/w2"
+            android:onClick="setPower" android:tag="2"/>
+
+        <ImageView
+            android:id="@+id/p3"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/w3"
+            android:onClick="setPower" android:tag="3"/>
+
+        <ImageView
+            android:id="@+id/p4"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/w4"
+            android:onClick="setPower" android:tag="4"/>
+
+        <ImageView
+            android:id="@+id/p5"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/w5"
+            android:onClick="setPower" android:tag="5"/>
+
+        <ImageView
+            android:id="@+id/p6"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/w6"
+            android:onClick="setPower" android:tag="6"/>
+    </LinearLayout>
+
+</LinearLayout>
